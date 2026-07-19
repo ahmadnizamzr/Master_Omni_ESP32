@@ -3,7 +3,7 @@
 
 #define I2C_SDA 21
 #define I2C_SCL 22
-#define I2C_FREQ 100000
+#define I2C_FREQ 100000 // 100 kHz
 #define JUMLAH_MOTOR 4
 
 String inputBuffer = "";
