@@ -32,6 +32,13 @@ Data yang dikirim ke slave = 8 byte (2 byte per motor):
 [dir1, pwm1, dir2, pwm2, dir3, pwm3, dir4, pwm4]
 dir = 1 (CW) atau 0 (CCW)
 
+| Gerakan | Command               |
+| ------- | --------------------- |
+| Maju    | 1 b250 a250 a250 b250 |
+| Kanan   | 1 b250 b250 a250 a250 |
+| Mundur  | 1 a250 b250 b250 a250 |
+| Kiri    | 1 a250 a250 b250 b250 |
+
 ## Get Project
 
 Install my-project with Terminal VS Code
@@ -87,3 +94,13 @@ Hubungkan ke GitHub dan push
 | .vscode/c_cpp_properties.json | Config C/C++ IntelliSense yang di-generate otomatis oleh extension PlatformIO |
 | .vscode/launch.json           | Config debugging (auto-generated)                                             |
 | .vscode/ipch                  | Cache tambahan untuk IntelliSense                                             |
+
+## Environment Arduino IDE
+
+To run this project, you will need to add the following Environment
+
+`esp32 by Espressif System Ver 2.0.11`
+
+Additional Boards Manager
+
+`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
