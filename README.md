@@ -99,6 +99,10 @@ Hubungkan ke GitHub dan push
 
 To run this project, you will need to add the following Environment
 
+New Sketch.ino
+
+`src > main.cpp > copy > Create New Sketch`
+
 `esp32 by Espressif System Ver 2.0.11`
 
 Additional Boards Manager
