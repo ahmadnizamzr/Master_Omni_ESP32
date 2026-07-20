@@ -5,11 +5,11 @@ Format perintah lewat Serial Monitor:
 ```bash
   <id> <arah1><pwm1> <arah2><pwm2> <arah3><pwm3> <arah4><pwm4>
 ```
-id    : alamat I2C slave tujuan (1-127)
-
-arahX : 'a' = CW, 'b' = CCW  (X = motor 1..4)
-  
-pwmX  : nilai 0 - 255
+|             | Fungsi    |
+| ----------------- | ------------------------------------------------------------------ |
+| id | alamat I2C slave tujuan (1-127) |
+| arahX | 'a' = CW, 'b' = CCW  (X = motor 1..4) |
+| pwmX | nilai 0 - 255 |
 
 Contoh di serial Monitor
 
